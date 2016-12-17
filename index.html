@@ -6,11 +6,13 @@
 <body>
 	<h1>Liz Hart's Art Studio</h1>
 	<h2>Introduction</h2>
-	<p>I have been creating art my whole life. And this page was to share some of my work.</p>
+	<p>I have been creating art my whole life. And this page was created to share some of my work.</p>
 	<h2>Drawing</h2>
-	<img src="http://i.imgur.com/CgKY01Z.jpg?1" alt="Image Unavailable">
+	<img src="http://i.imgur.com/CgKY01Z.jpg?1" alt="Drawing Sample">
 	</ul>
-	<p>Please see my other page <a href="/elizabeth.github.io/new-page.html">here</a></p>
+	<h2>Painting</h2>
+	<img src="http://i.imgur.com/dyIjGw7.jpg?1" alt="Painting Sample">
+	<p>Would you like to commission a piece? Please see my other page <a href="/elizabeth.github.io/new-page.html">here</a>.</p>
 	<h2>Connect with me!</h2>
 	<form action="submit" method="post">
 		<div>
@@ -19,9 +21,18 @@
 		</div>
 		<div>
 			<label>First Name:</label>
-			<input type="name" name="firstname">
+			<input type="text" name="firstname">
+		</div>
+		<div>
+			<label>What would you like to see more of?</label>
+			<select name="mediatype">
+				<option value="media">Drawing</option>
+				<option value="media">Painting</option>
+				<option value="media">Other</option>
+			</select>
 		</div>
 		<button type="submit">Submit</button>
 	</form>
+	<p>My other work can be found on <a href="http://imgur.com/user/ewhart2">Imgur</a></p>
 </body>
 </html>
