@@ -1,3 +1,34 @@
 body {
-	background-color: green;
+	background-color: #99ffd6;
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Permanent Marker', cursive;
 }
+
+img {
+	max-width: 500px;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: blue;
+}
+
+#heading-border {
+	border: 5px solid black;
+	padding: 0px 10px 10px 10px;
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.body-border {
+	border: 2px solid black;
+	padding: 0px 10px 10px 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
