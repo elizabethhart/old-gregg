@@ -1,31 +1,41 @@
 body {
 	background-color: #99ffd6;
 	width: 960px;
+	/* centered entire body */
 	margin: 0 auto;
+	/* added new font */
 	font-family: 'Permanent Marker', cursive;
 }
 
+/* styled elements using an id */
 #heading-border {
+	/* padding and border added */
 	border: 5px solid black;
 	padding: 0px 10px 10px 10px;
+	/* margin added */
 	margin: 10px;
 	border-radius: 10px;
 	text-align: center;
 	background-color: #e6ffff;
 }
 
+/* styled elements using a class */
 .body-border {
+	/* padding and border added */
 	border: 2px solid black;
 	padding: 0px 10px 10px 10px;
+	/* margin added */
 	margin: 10px;
 	border-radius: 10px;
 	background-color: #e6ffff;
 }
 
 h2 {
+	/* underline all level 2 headings */
 	text-decoration: underline;
 }
 
+/* styled elements using a an id */
 #examples {
 	margin: 20px;
 	text-align: center;
@@ -37,14 +47,18 @@ img {
 	max-width: 300px;
 }
 
+/* different color for visited links */
 a:visited {
 	color: purple;
 }
 
+/* styled form using an id */
 #background-image {
+	/* added background image */
 	background-image: url(http://i.imgur.com/FAAJYfS.jpg?2);
 }
 
+/* styled form using an id */
 #form {
 	background-color: #e6ffff;
 	margin: 20px 10px;
