@@ -66,3 +66,11 @@ a:visited {
 	border-radius: 10px;
 	padding: 0px 10px 10px 10px;
 }
+
+/* add media query */
+@media screen and (max-width: 500px) {
+	body {
+		font-size: 50%;
+		width: 500px;
+	}
+}
