@@ -7,16 +7,15 @@ body {
 	font-family: 'Permanent Marker', cursive;
 }
 
-/* styled elements using an id */
-#heading-border {
-	/* padding and border added */
-	border: 5px solid black;
-	padding: 0px 10px 10px 10px;
-	/* margin added */
-	margin: 10px;
+h2 {
+	/* underline all level 2 headings */
+	text-decoration: underline;
+}
+
+img {
 	border-radius: 10px;
-	text-align: center;
-	background-color: #e6ffff;
+	border: 1px solid black;
+	max-width: 300px;
 }
 
 /* styled elements using a class */
@@ -30,26 +29,22 @@ body {
 	background-color: #e6ffff;
 }
 
-h2 {
-	/* underline all level 2 headings */
-	text-decoration: underline;
+/* styled elements using an id */
+#heading-border {
+	/* padding and border added */
+	border: 5px solid black;
+	padding: 0px 10px 10px 10px;
+	/* margin added */
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #e6ffff;
 }
 
 /* styled elements using a an id */
 #examples {
 	margin: 20px;
 	text-align: center;
-}
-
-img {
-	border-radius: 10px;
-	border: 1px solid black;
-	max-width: 300px;
-}
-
-/* different color for visited links */
-a:visited {
-	color: purple;
 }
 
 /* styled form using an id */
@@ -65,6 +60,11 @@ a:visited {
 	border: 2px solid gray;
 	border-radius: 10px;
 	padding: 0px 10px 10px 10px;
+}
+
+/* different color for visited links */
+a:visited {
+	color: purple;
 }
 
 /* add media query */
