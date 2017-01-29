@@ -18,26 +18,13 @@ img {
 	max-width: 300px;
 }
 
-/* styled elements using a class */
-.body-border {
+.body-heading-styling {
 	/* padding and border added */
 	border: 2px solid black;
-	padding: 0px 10px 10px 10px;
 	/* margin added */
 	margin: 10px;
 	border-radius: 10px;
-	background-color: #e6ffff;
-}
-
-/* styled elements using an id */
-#heading-border {
-	/* padding and border added */
-	border: 5px solid black;
 	padding: 0px 10px 10px 10px;
-	/* margin added */
-	margin: 10px;
-	border-radius: 10px;
-	text-align: center;
 	background-color: #e6ffff;
 }
 
