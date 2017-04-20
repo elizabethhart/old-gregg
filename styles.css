@@ -11,6 +11,10 @@ li {
 	text-align: center;
 }
 
+.card {
+	text-align: center;
+}
+
 .material-icons {
 	height: 100px;
 }
@@ -22,4 +26,8 @@ li {
 
 .icon-white {
 	color: white;
+}
+
+.white-text {
+	font-size: 20px;
 }
