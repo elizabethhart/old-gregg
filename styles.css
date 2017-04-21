@@ -31,3 +31,7 @@ li {
 .white-text {
 	font-size: 20px;
 }
+
+.carousel .carousel-item {
+	width: 500px !important;
+}
