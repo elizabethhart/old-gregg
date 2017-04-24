@@ -11,6 +11,10 @@ li {
 	text-align: center;
 }
 
+a, h3 {
+	color: red;
+}
+
 .card {
 	text-align: center;
 }
