@@ -39,3 +39,7 @@ a, h3 {
 .carousel .carousel-item {
 	width: 500px !important;
 }
+
+.art-contact {
+	margin: 50px;
+}
