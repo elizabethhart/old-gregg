@@ -1,5 +1,6 @@
 body {
-	max-height: 1500px;
+	max-width: 100%;
+	height: auto;
 	background-image: url("images/IMG_1325.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -25,7 +26,6 @@ a, h3 {
 
 .profile {
 	border: 5px solid white;
-	border-radius: 50%;
 }
 
 .icon-white {
@@ -42,4 +42,20 @@ a, h3 {
 
 .art-contact {
 	margin: 50px;
+}
+
+@media only screen and (max-width: 450px) {
+	
+    body {
+    	background-width: 100%;
+    }
+
+    ul {
+    	max-width: 50%;
+    }
+
+    .profile {
+    	max-width: 100%;
+    }
+
 }
