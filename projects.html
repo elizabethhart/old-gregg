@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Elizabeth Hart</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+	  $(document).ready(function(){
+	    $('.button-collapse').sideNav({
+	      menuWidth: 400,
+	      edge: 'left',
+	      closeOnClick: true,
+	      draggable: true
+	    });
+	    $('.slider').slider();
+	  });
+  </script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+</head>
+<body class="blue-grey lighten-5">
+
+  <ul id="slide-out" class="side-nav blue-grey">
+    <li><img class="profile circle" src="images/IMG_1321.JPG"></li>
+    <li><a href="index.html"><span class="white-text name">Home</span></a></li>
+    <li><a href="https://www.linkedin.com/in/elizabeth-hart/"><span class="white-text name">LinkedIn</span></a></li>
+	  <li><a href="https://github.com/elizabethhart"><span class="white-text name">GitHub</span></a></li>
+	  <li><a href="images/ELIZABETH_HART_RESUME_04242017.pdf" target="_blank"><span class="white-text name">Resume</span></a></li>
+	  <li><a href="gallery.html" target="_blank"><span class="white-text name">Gallery</span></a></li>
+	  <li><a href="projects.html" target="_blank"><span class="white-text name">Projects</span></a></li>
+	  <li><a href="mailto:elizabethwhart@gmail.com"><i class="medium material-icons">email</i></a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="medium material-icons icon-white">menu</i></a>
+
+  <div class="row">
+    <div class="col s12 m6 offset-m3"">
+      <div class="card blue-grey darken-4">
+        <div class="card-content white-text">
+          <h3>Projects</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+	  <div class="card col s12 m6 offset-m3">
+	    <div class="card-image waves-effect waves-block waves-light">
+	      <img class="activator" src="images/witness-me-screenshot.png">
+	    </div>
+	    <div class="card-content">
+	      <span class="card-title activator grey-text text-darken-4">Witness Me<i class="material-icons right">more_vert</i></span>
+	    </div>
+	    <div class="card-reveal">
+	      <span class="card-title grey-text text-darken-4">Concept<i class="material-icons right">close</i></span>
+	      <p>Users can challenge each other to feats of greatness and attach
+	small bets to make things interesting</p>
+				<span class="card-title grey-text text-darken-4">Tech Stack</span>
+				<p>Ruby on Rails, Dwolla API, Twilio API, Facebook API, Redis, AWS S3, Heroku</p>
+				<span><a class="project" href="https://github.com/elizabethhart">GitHub Link</a></span>
+	    </div>
+	  </div> 
+	</div>     
+
+</body>
+</html>
